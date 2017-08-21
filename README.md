@@ -63,4 +63,4 @@ Then just use the "fhir_data" in your ejs file like that:
 
 Then you can see the graph from the page you specified:
 
-
+![FHIR_Graph_Of_Steps](https://github.com/UndefinedZZK/FHIR-Graph/blob/master/generated_graph.png)
