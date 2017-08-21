@@ -1,0 +1,18 @@
+{
+  "name": "fhir-graph",
+  "version": "1.1.0",
+  "description": "A package that can read a FHIR json file and show a graph with 'step24'(This is configuarable) canvas tag.",
+  "main": "index.js",
+  "dependencies": {
+    "read-dir-files": "~0.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "FHIR",
+    "graph"
+  ],
+  "author": "Zekun Zhou <undefinedzzk@gmail.com>",
+  "license": "ISC"
+}

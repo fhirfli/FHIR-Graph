@@ -1,0 +1,47 @@
+{
+  "resourceType": "Observation",
+  "id": "daily-steps",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+    ]
+  },
+  "status": "final",
+  "issued":"2017-08-14T09:41:52.000",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "fitness",
+          "display": "Fitness data"
+        }
+      ],
+      "text": "Fitness data"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "c41950-7",
+        "display": "Daily steps"
+      },
+    {
+        "system": "http://snomed.info/sct",
+        "code": "",
+        "display": "Daily steps"
+      }
+ ]
+  },
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "1999-07-02",
+  "valueQuantity": {
+    "value": 1000,
+    "unit": "steps",
+    "system": "http://unitsofmeasure.org",
+    "code": "steps"
+  }
+}
